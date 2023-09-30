@@ -1,8 +1,8 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
-    
+    box-sizing: border-box;
+   
 }
 
 .recipe {
@@ -16,8 +16,30 @@
 
 h1, h2, h3 {
     color: #333;
+    padding: 10px 0;
 }
 
 ul, ol {
     margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+img{
+    height: 300px;
+    width: 400px;
+    border: 1px groove;
+    box-shadow: 1px 2px 2px 3px rgb(206, 206, 239);
+    margin-left: 25%;
+    
+}
+.instructions{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 18px;
+}
+
+iframe{
+    width: 765px;
 }
