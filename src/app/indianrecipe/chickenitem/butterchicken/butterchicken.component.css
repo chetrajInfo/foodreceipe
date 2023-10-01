@@ -6,6 +6,10 @@
 }
 
 .recipe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     font-family: Arial, sans-serif;
     padding: 20px;
     max-width: 800px;
@@ -28,12 +32,12 @@ ul li, ol li {
     margin-bottom: 10px;
 }
 img{
-    height: 300px;
-    width: 350px;
+    height: 350px;
+    width: 600px;
     border: 1px groove;
     box-shadow: 1px 2px 2px 3px rgb(206, 206, 239);
-    margin-left: 1%;
-    
+    margin-left: 2%;
+
 }
 .instructions{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
@@ -51,7 +55,7 @@ iframe{
     gap:1.9rem;
     justify-content:flex-start;
     align-items: center;
-    margin-left:2%;
+    margin-left:1%;
 }
 .img-ingredient img{
     border-radius: 50%;
@@ -101,14 +105,31 @@ label[for="mint"]{
     margin-left: 5px;
 }
 label[for="chilli"]{
-    margin-left: 13px;
+    margin-left: 23px;
 }
 label[for="kashuri"]{
-    margin-left: 5px;
+    margin-left: 15px;
 }
-
-@media screen and (max-width:600px) {
+label[for="blacksalt"], label[for="curd"], label[for="cumin"]{
+    margin-left: 20px;
+}
+@media screen and (max-width:800px) {
     .item-label{
         display: none;
     }
+    .img-ingredient img{
+        margin-top: 10px;
+    }
+    
+
+    iframe{
+        margin: auto;
+        padding:auto;
+        width: 380px;
+    }
+    img{
+        margin:auto;
+        width: 380px;
+    }
+ 
 }

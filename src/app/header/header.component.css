@@ -79,3 +79,24 @@
 .sub-dropdown:hover > ul {
     display: block;
 }
+
+@media screen and (max-width:800px) {
+
+    .header-nav {
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
+   }
+   .nav-links {
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:5px;
+} 
+
+
+.dropdown ul,
+.sub-dropdown ul {
+  list-style: none;
+}
+}
