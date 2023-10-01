@@ -7,10 +7,12 @@ import { ChickenitemModule } from './indianrecipe/chickenitem/chickenitem.module
 import { HeaderComponent } from './header/header.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+
   
   ],
   imports: [
