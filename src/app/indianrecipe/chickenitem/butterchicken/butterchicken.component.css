@@ -29,10 +29,10 @@ ul li, ol li {
 }
 img{
     height: 300px;
-    width: 400px;
+    width: 350px;
     border: 1px groove;
     box-shadow: 1px 2px 2px 3px rgb(206, 206, 239);
-    margin-left: 25%;
+    margin-left: 1%;
     
 }
 .instructions{
@@ -42,4 +42,73 @@ img{
 
 iframe{
     width: 765px;
+}
+
+.img-ingredient{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:1.9rem;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left:2%;
+}
+.img-ingredient img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.zoom-image {
+    overflow: hidden; /* This ensures the zoomed image doesn't overflow its container */
+    display: block;
+    width: 100%;     /* This ensures the image fills its container */
+    height: 100%;
+    transition: transform 0.3s ease-in-out;  /* This adds smooth transition effect */
+    /*position: relative;*/ 
+    cursor: pointer;
+}
+
+ .zoom-image:hover {
+    transform: scale(3.2);   /* 3.2 means it'll zoom to 320% of its original size */
+}
+
+
+
+.item-label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:1.5rem;
+    justify-content:flex-start;
+    align-items: center;
+   
+}
+.item-label label{
+    padding: 1px;
+    border: 4px solid rgb(249, 235, 235);
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+label[for="mint"]{
+    margin-left: 5px;
+}
+label[for="chilli"]{
+    margin-left: 13px;
+}
+label[for="kashuri"]{
+    margin-left: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .item-label{
+        display: none;
+    }
 }

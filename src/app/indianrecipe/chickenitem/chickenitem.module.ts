@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ButterchickenComponent } from './butterchicken/butterchicken.component';
+import { ChickenmasalaComponent } from './chickenmasala/chickenmasala.component';
 
 
 
 @NgModule({
   declarations: [
-    ButterchickenComponent
+    ButterchickenComponent,
+    ChickenmasalaComponent
   ],
   imports: [
     CommonModule
