@@ -131,5 +131,8 @@ label[for="blacksalt"], label[for="curd"], label[for="cumin"]{
         margin:auto;
         width: 380px;
     }
- 
+    .zoom-image:hover {
+        transform: scale(1.6);   /* 1.6 means it'll zoom to 160% of its original size */
+    }
+    
 }
