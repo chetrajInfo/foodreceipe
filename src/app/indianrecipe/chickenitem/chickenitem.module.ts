@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ButterchickenComponent } from './butterchicken/butterchicken.component';
 import { ChickenmasalaComponent } from './chickenmasala/chickenmasala.component';
-import { MainpageComponent } from './mainpage/mainpage.component';
+import { ChickenkormaComponent } from './chickenkorma/chickenkorma.component';
+
 
 
 
@@ -10,7 +11,8 @@ import { MainpageComponent } from './mainpage/mainpage.component';
   declarations: [
     ButterchickenComponent,
     ChickenmasalaComponent,
-    MainpageComponent
+    ChickenkormaComponent,
+
   ],
   imports: [
     CommonModule

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChickenitemModule } from './indianrecipe/chickenitem/chickenitem.module';
 import { HeaderComponent } from './header/header.component';
+import { MainpageComponent } from './mainpage/mainpage.component';
 
 
 
@@ -12,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     AppComponent,
     HeaderComponent,
+    MainpageComponent,
 
   
   ],
